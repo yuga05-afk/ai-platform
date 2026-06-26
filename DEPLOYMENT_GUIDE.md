@@ -66,7 +66,7 @@ After creating the repository on GitHub, you'll see a page with setup instructio
 
 ```bash
 # Add GitHub as remote repository
-git remote add origin https://github.com/yuga07-exe/ai-platform.git
+git remote add origin https://github.com/yuga05-afk/ai-platform.git
 
 # Verify remote was added
 git remote -v
@@ -102,7 +102,7 @@ cat ~/.ssh/id_ed25519.pub
 
 ## 🎯 Step 4: Enable GitHub Pages
 
-1. **Go to your repository**: https://github.com/yuga07-exe/ai-platform
+1. **Go to your repository**: https://github.com/yuga05-afk/ai-platform
 2. Click **Settings** (top menu bar)
 3. In the left sidebar, scroll down and click **Pages**
 4. Under **Build and deployment** → **Source**:
@@ -132,7 +132,7 @@ cat ~/.ssh/id_ed25519.pub
 Once deployment is complete, your site will be live at:
 
 ```
-https://yuga07-exe.github.io/ai-platform/
+https://yuga05-afk.github.io/ai-platform/
 ```
 
 **🎉 Congratulations! Your site is now live!**
@@ -206,7 +206,7 @@ base: '/ai-platform/',  // Must match your repository name
 git remote -v
 
 # If wrong, update it:
-git remote set-url origin https://github.com/yuga07-exe/ai-platform.git
+git remote set-url origin https://github.com/yuga05-afk/ai-platform.git
 ```
 
 ---
@@ -259,7 +259,7 @@ If you want a custom domain:
 
 1. **Buy a domain** from Namecheap, GoDaddy, etc.
 2. **In GitHub**: Settings → Pages → Custom domain
-3. **At your domain registrar**: Add CNAME record pointing to `yuga07-exe.github.io`
+3. **At your domain registrar**: Add CNAME record pointing to `yuga05-afk.github.io`
 
 ### Update Content
 Edit these files and push changes:
@@ -296,8 +296,8 @@ src/styles/global.css
 
 Before submitting, verify:
 
-- [ ] ✅ Live site is accessible: https://yuga07-exe.github.io/ai-platform/
-- [ ] ✅ GitHub repository is public: https://github.com/yuga07-exe/ai-platform
+- [ ] ✅ Live site is accessible: https://yuga05-afk.github.io/ai-platform/
+- [ ] ✅ GitHub repository is public: https://github.com/yuga05-afk/ai-platform
 - [ ] ✅ All features work correctly
 - [ ] ✅ Responsive on mobile, tablet, desktop
 - [ ] ✅ No console errors (press F12 → Console)
@@ -356,8 +356,8 @@ Your NeuralOps AI Platform is now:
 - ✅ SEO optimized
 - ✅ Ready for competition submission!
 
-**Live URL:** https://yuga07-exe.github.io/ai-platform/
-**Repository:** https://github.com/yuga07-exe/ai-platform
+**Live URL:** https://yuga05-afk.github.io/ai-platform/
+**Repository:** https://github.com/yuga05-afk/ai-platform
 
 ---
 

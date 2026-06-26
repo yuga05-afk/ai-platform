@@ -67,13 +67,13 @@ git push -u origin main
 
 ## ✅ After Successful Push:
 
-1. **Go to:** https://github.com/yuga07-exe/ai-platform
+1. **Go to:** https://github.com/yuga05-afk/ai-platform
 2. **You'll see all your code uploaded!**
 3. **Click:** Settings (top menu)
 4. **Click:** Pages (left sidebar)
 5. **Under "Source":** Select "GitHub Actions"
 6. **Wait 2-3 minutes**
-7. **Your site is live at:** https://yuga07-exe.github.io/ai-platform/
+7. **Your site is live at:** https://yuga05-afk.github.io/ai-platform/
 
 ---
 
@@ -102,7 +102,7 @@ git push origin main
 git remote remove origin
 
 # Add it again
-git remote add origin https://github.com/yuga07-exe/ai-platform.git
+git remote add origin https://github.com/yuga05-afk/ai-platform.git
 
 # Push
 git push -u origin main
@@ -114,7 +114,7 @@ git push -u origin main
 
 - [ ] Git repository initialized ✅
 - [ ] Files committed ✅
-- [ ] GitHub repository created at https://github.com/yuga07-exe/ai-platform
+- [ ] GitHub repository created at https://github.com/yuga05-afk/ai-platform
 - [ ] Remote added ✅
 - [ ] Code pushed to GitHub ⏳ (YOU ARE HERE)
 - [ ] GitHub Pages enabled ⏳
@@ -124,7 +124,7 @@ git push -u origin main
 
 ## 🎉 Once Deployed:
 
-Visit: **https://yuga07-exe.github.io/ai-platform/**
+Visit: **https://yuga05-afk.github.io/ai-platform/**
 
 You should see:
 - ✨ Animated particle background

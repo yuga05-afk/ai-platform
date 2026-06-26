@@ -81,7 +81,7 @@ ai-platform/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yuga07-exe/ai-platform.git
+   git clone https://github.com/yuga05-afk/ai-platform.git
    cd ai-platform
    ```
 
@@ -136,7 +136,7 @@ git add .
 git commit -m "Initial commit: NeuralOps landing page with all features"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/yuga07-exe/ai-platform.git
+git remote add origin https://github.com/yuga05-afk/ai-platform.git
 
 # Push to GitHub
 git branch -M main
@@ -149,7 +149,7 @@ git push -u origin main
 
 ### Step 3: Enable GitHub Pages
 
-1. Go to your repository on GitHub: `https://github.com/yuga07-exe/ai-platform`
+1. Go to your repository on GitHub: `https://github.com/yuga05-afk/ai-platform`
 2. Click **Settings** (top menu)
 3. In the left sidebar, click **Pages**
 4. Under **Source**, select **GitHub Actions**
@@ -162,12 +162,12 @@ git push -u origin main
 3. Wait for it to complete (usually 2-3 minutes)
 4. Once complete, your site will be live at:
    ```
-   https://yuga07-exe.github.io/ai-platform/
+   https://yuga05-afk.github.io/ai-platform/
    ```
 
 ### Step 5: Verify Deployment
 
-1. Visit your live site: `https://yuga07-exe.github.io/ai-platform/`
+1. Visit your live site: `https://yuga05-afk.github.io/ai-platform/`
 2. Test all features:
    - Click through navigation
    - Test pricing currency switcher
@@ -330,5 +330,5 @@ Built with ❤️ for the WebnD IIT Bhubaneswar Frontend Battle
 
 ---
 
-**Live Site:** https://yuga07-exe.github.io/ai-platform/
-**Repository:** https://github.com/yuga07-exe/ai-platform
+**Live Site:** https://yuga05-afk.github.io/ai-platform/
+**Repository:** https://github.com/yuga05-afk/ai-platform

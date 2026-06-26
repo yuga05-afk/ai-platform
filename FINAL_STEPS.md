@@ -4,7 +4,7 @@
 
 ### **COPY THIS LINK AND PASTE IN YOUR BROWSER:**
 ```
-https://github.com/yuga07-exe/ai-platform/settings/pages
+https://github.com/yuga05-afk/ai-platform/settings/pages
 ```
 
 ---
@@ -40,19 +40,19 @@ https://github.com/yuga07-exe/ai-platform/settings/pages
 
 ### **Step 3: Visit Your Site!**
 ```
-https://yuga07-exe.github.io/ai-platform/
+https://yuga05-afk.github.io/ai-platform/
 ```
 
 ---
 
 ## 🎯 COMPLETE CHECKLIST:
 
-- [ ] 1. Go to: https://github.com/yuga07-exe/ai-platform/settings/pages
+- [ ] 1. Go to: https://github.com/yuga05-afk/ai-platform/settings/pages
 - [ ] 2. Source: Select "GitHub Actions"
 - [ ] 3. Click: Save
 - [ ] 4. Click: Actions tab
 - [ ] 5. Wait for green checkmark ✅
-- [ ] 6. Visit: https://yuga07-exe.github.io/ai-platform/
+- [ ] 6. Visit: https://yuga05-afk.github.io/ai-platform/
 
 ---
 
@@ -61,7 +61,7 @@ https://yuga07-exe.github.io/ai-platform/
 ### **Problem: Can't find the link**
 **Solution:** Just type this in your browser address bar:
 ```
-github.com/yuga07-exe/ai-platform/settings/pages
+github.com/yuga05-afk/ai-platform/settings/pages
 ```
 
 ### **Problem: Don't see "GitHub Actions" option**
@@ -99,7 +99,7 @@ github.com/yuga07-exe/ai-platform/settings/pages
 
 ## 🚀 JUST DO THIS NOW:
 
-1. **Open:** https://github.com/yuga07-exe/ai-platform/settings/pages
+1. **Open:** https://github.com/yuga05-afk/ai-platform/settings/pages
 2. **Select:** GitHub Actions
 3. **Click:** Save
 4. **Wait:** 2-3 minutes
@@ -108,6 +108,6 @@ github.com/yuga07-exe/ai-platform/settings/pages
 ---
 
 **That's it! No more steps after this. Your site will be live at:**
-**https://yuga07-exe.github.io/ai-platform/**
+**https://yuga05-afk.github.io/ai-platform/**
 
 Let me know once you see the green checkmark! 🚀

@@ -15,7 +15,7 @@ git remote remove origin
 
 ### **Step 2: Add the correct remote**
 ```bash
-git remote add origin https://github.com/yuga07-exe/ai-platform1.git
+git remote add origin https://github.com/yuga05-afk/ai-platform1.git
 ```
 
 ### **Step 3: Verify it's correct**
@@ -25,8 +25,8 @@ git remote -v
 
 You should see:
 ```
-origin  https://github.com/yuga07-exe/ai-platform1.git (fetch)
-origin  https://github.com/yuga07-exe/ai-platform1.git (push)
+origin  https://github.com/yuga05-afk/ai-platform1.git (fetch)
+origin  https://github.com/yuga05-afk/ai-platform1.git (push)
 ```
 
 ### **Step 4: Push your code**
@@ -39,20 +39,20 @@ git push -u origin main
 ## 🔐 Authentication:
 
 When prompted:
-- **Username:** yuga07-exe
+- **Username:** yuga05-afk
 - **Password:** Use your Personal Access Token (or sign in via browser)
 
 ---
 
 ## ✅ After Successful Push:
 
-1. Go to: https://github.com/yuga07-exe/ai-platform1
+1. Go to: https://github.com/yuga05-afk/ai-platform1
 2. You'll see all your files!
 3. Go to **Settings → Pages**
 4. Select **GitHub Actions** as source
 5. Click **Save**
 6. Wait 2-3 minutes
-7. Visit: https://yuga07-exe.github.io/ai-platform1/
+7. Visit: https://yuga05-afk.github.io/ai-platform1/
 
 ---
 
@@ -60,7 +60,7 @@ When prompted:
 
 ```bash
 git remote remove origin
-git remote add origin https://github.com/yuga07-exe/ai-platform1.git
+git remote add origin https://github.com/yuga05-afk/ai-platform1.git
 git push -u origin main
 ```
 

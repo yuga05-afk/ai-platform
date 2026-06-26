@@ -58,7 +58,7 @@ npm run build
 This creates a `dist` folder with all your files.
 
 ### **Step 2: Go to GitHub**
-Visit: https://github.com/yuga07-exe/ai-platform1
+Visit: https://github.com/yuga05-afk/ai-platform1
 
 ### **Step 3: Upload files manually**
 1. Click **"Add file"** → **"Upload files"**
@@ -69,7 +69,7 @@ Visit: https://github.com/yuga07-exe/ai-platform1
 6. Select **"main"** branch and **"/dist"** folder
 7. Click **Save**
 
-**Your site will be live at:** https://yuga07-exe.github.io/ai-platform1/
+**Your site will be live at:** https://yuga05-afk.github.io/ai-platform1/
 
 ---
 

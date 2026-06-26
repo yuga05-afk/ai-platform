@@ -1,6 +1,6 @@
 # 🚀 CLICK THIS LINK RIGHT NOW:
 
-## https://github.com/yuga07-exe/ai-platform/settings/pages
+## https://github.com/yuga05-afk/ai-platform/settings/pages
 
 ---
 
@@ -17,7 +17,7 @@
 1. Click **Actions** tab (at the top)
 2. Wait 2-3 minutes
 3. See green checkmark ✅
-4. Visit: https://yuga07-exe.github.io/ai-platform/
+4. Visit: https://yuga05-afk.github.io/ai-platform/
 
 ---
 

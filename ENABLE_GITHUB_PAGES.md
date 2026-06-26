@@ -9,7 +9,7 @@ Now you just need to enable GitHub Pages to make your site live.
 ## 📋 Step-by-Step Instructions:
 
 ### **Step 1: Open Your Repository**
-1. Go to: **https://github.com/yuga07-exe/ai-platform**
+1. Go to: **https://github.com/yuga05-afk/ai-platform**
 2. Make sure you're logged in to GitHub
 
 ### **Step 2: Go to Settings**
@@ -40,7 +40,7 @@ Once you see a **green checkmark** ✅ in the Actions tab:
 
 Your site is live at:
 ```
-https://yuga07-exe.github.io/ai-platform/
+https://yuga05-afk.github.io/ai-platform/
 ```
 
 **🎉 Congratulations! Your site is now live!**
@@ -69,14 +69,14 @@ Repository Page
 
 ## ✅ Checklist:
 
-- [ ] Go to https://github.com/yuga07-exe/ai-platform
+- [ ] Go to https://github.com/yuga05-afk/ai-platform
 - [ ] Click **Settings**
 - [ ] Click **Pages** in left sidebar
 - [ ] Select **GitHub Actions** as source
 - [ ] Click **Save**
 - [ ] Go to **Actions** tab
 - [ ] Wait for green checkmark
-- [ ] Visit https://yuga07-exe.github.io/ai-platform/
+- [ ] Visit https://yuga05-afk.github.io/ai-platform/
 
 ---
 
@@ -131,8 +131,8 @@ Repository Page
 Just follow the 6 steps above and your site will be live!
 
 **Remember:** 
-- Repository: https://github.com/yuga07-exe/ai-platform
-- Live Site: https://yuga07-exe.github.io/ai-platform/
+- Repository: https://github.com/yuga05-afk/ai-platform
+- Live Site: https://yuga05-afk.github.io/ai-platform/
 
 ---
 

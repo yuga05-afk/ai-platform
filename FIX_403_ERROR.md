@@ -1,7 +1,7 @@
 # 🔧 Fix: 403 Permission Error
 
 ## The Problem:
-The repository `yuga07-exe/ai-platform` doesn't exist on GitHub yet!
+The repository `yuga05-afk/ai-platform` doesn't exist on GitHub yet!
 
 ## ✅ Solution: Create the Repository First
 
@@ -36,7 +36,7 @@ OR
 You'll see commands like these. **Copy and run them ONE BY ONE:**
 
 ```bash
-git remote add origin https://github.com/yuga07-exe/ai-platform.git
+git remote add origin https://github.com/yuga05-afk/ai-platform.git
 git branch -M main
 git push -u origin main
 ```
@@ -44,7 +44,7 @@ git push -u origin main
 ### **Step 4: Authenticate**
 
 When prompted:
-- **Username:** Your GitHub username (yuga07-exe)
+- **Username:** Your GitHub username (yuga05-afk)
 - **Password:** Use a Personal Access Token (NOT your GitHub password)
 
 **To create a Personal Access Token:**
@@ -69,13 +69,13 @@ When prompted:
 
 ## ✅ After Successful Push:
 
-1. Go to: https://github.com/yuga07-exe/ai-platform
+1. Go to: https://github.com/yuga05-afk/ai-platform
 2. You'll see all your files!
 3. Go to **Settings → Pages**
 4. Select **GitHub Actions** as source
 5. Click **Save**
 6. Wait 2-3 minutes
-7. Visit: https://yuga07-exe.github.io/ai-platform/
+7. Visit: https://yuga05-afk.github.io/ai-platform/
 
 ---
 
