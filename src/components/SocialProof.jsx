@@ -4,56 +4,37 @@ import './SocialProof.css'
 const TESTIMONIALS = [
   {
     name: 'Priya Nair',
-    role: 'Head of Data Engineering, Swiggy',
+    role: 'Head of Data Engineering',
+    company: 'Swiggy',
     avatar: 'PN',
-    stars: 5,
-    quote:
-      'NeuralOps cut our pipeline build time from 3 weeks to 2 days. The bento of connectors is insane — we plugged in our Kafka topics and Snowflake warehouse in under an hour.',
+    quote: 'NeuralOps turned a three-week pipeline migration into a two-day launch. The canvas made every dependency visible.',
+    metric: '3x faster deployment',
   },
   {
     name: 'Marcus Webb',
-    role: 'CTO, Synthetix Labs',
+    role: 'CTO',
+    company: 'Synthetix Labs',
     avatar: 'MW',
-    stars: 5,
-    quote:
-      'The autonomous retraining loop is genuinely magical. Our fraud model used to drift every quarter. Now it self-corrects weekly and we have not had a false-positive spike in 8 months.',
+    quote: 'The autonomous recovery loop is the difference between a dashboard and a real operations platform.',
+    metric: '99.99% uptime',
   },
   {
     name: 'Leila Farouk',
-    role: 'VP Engineering, TradeSpark',
+    role: 'VP Engineering',
+    company: 'Razorpay',
     avatar: 'LF',
-    stars: 5,
-    quote:
-      'We benchmarked NeuralOps against three enterprise platforms. It beat all of them on latency and came in at a third of the cost. Security audit was clean on first pass.',
-  },
-  {
-    name: 'Rohan Mehta',
-    role: 'Principal ML Engineer, Zepto',
-    avatar: 'RM',
-    stars: 5,
-    quote:
-      "Finally a platform where the AI layer isn't just a checkbox. The NeuralCore model actually understands our schema and suggests transformations I wouldn't have thought of.",
-  },
-  {
-    name: 'Sophie Chen',
-    role: 'Data Science Lead, Grab',
-    avatar: 'SC',
-    stars: 5,
-    quote:
-      'Migrated 200+ pipelines from Airflow in a weekend. The zero-trust layer meant our security team approved it in a single review. This is what modern data infra should feel like.',
-  },
-  {
-    name: 'Daniel Osei',
-    role: 'Engineering Manager, M-Pesa',
-    avatar: 'DO',
-    stars: 5,
-    quote:
-      'Global edge delivery is not a gimmick — our inference latency in Nairobi dropped from 340ms to 18ms. That change alone justified the cost within the first week.',
+    quote: 'Security review passed quickly because controls are part of every workflow, not an afterthought.',
+    metric: 'SOC 2 certified',
   },
 ]
 
-const LOGOS = [
-  'Swiggy', 'Synthetix', 'TradeSpark', 'Zepto', 'Grab', 'M-Pesa', 'Razorpay', 'PhonePe',
+const LOGOS = ['Swiggy', 'Razorpay', 'Zepto', 'Grab', 'PhonePe', 'TradeSpark', 'CRED', 'Zomato']
+
+const STATS = [
+  { value: '500+', label: 'Enterprise clients' },
+  { value: '10M+', label: 'Pipelines executed' },
+  { value: '99.9%', label: 'Uptime SLA' },
+  { value: '40+', label: 'Global regions' },
 ]
 
 export default function SocialProof() {
@@ -61,45 +42,75 @@ export default function SocialProof() {
     <section id="social-proof" className="social-section" aria-label="Customer testimonials">
       <div className="container">
         <header className="section-header animate-fade-up">
-          <p className="section-eyebrow">Trusted by builders</p>
-          <h2 className="section-title">
-            Teams that ship fast<br />use NeuralOps
-          </h2>
+          <p className="section-eyebrow">Social proof</p>
+          <h2 className="section-title">Trusted by teams that need data to move.</h2>
+          <p className="section-sub">
+            Join thousands of engineers who ship faster with NeuralOps
+          </p>
         </header>
 
-        {/* Logo strip */}
-        <div className="logo-strip animate-fade-up delay-1" aria-label="Partner companies">
-          {LOGOS.map((logo) => (
-            <span key={logo} className="logo-item">{logo}</span>
+        <div className="stats-strip animate-fade-up delay-1" aria-label="Platform statistics">
+          {STATS.map((stat) => (
+            <div key={stat.label} className="stat-card">
+              <strong className="stat-value">{stat.value}</strong>
+              <span className="stat-label">{stat.label}</span>
+            </div>
           ))}
         </div>
 
-        {/* Testimonials grid */}
+        <div className="logo-strip animate-fade-up delay-2" aria-label="Partner companies">
+          {LOGOS.map((logo) => (
+            <div key={logo} className="logo-item">
+              <span className="logo-text">{logo}</span>
+            </div>
+          ))}
+        </div>
+
         <div className="testimonials-grid" role="list" aria-label="Customer testimonials">
-          {TESTIMONIALS.map((t) => (
-            <blockquote
-              key={t.name}
-              className="testimonial-card"
+          {TESTIMONIALS.map((testimonial, idx) => (
+            <blockquote 
+              key={testimonial.name} 
+              className="testimonial-card animate-fade-up" 
               role="listitem"
-              cite="#"
+              style={{ animationDelay: `${0.3 + idx * 0.1}s` }}
             >
-              <div className="testimonial-stars" aria-label={`${t.stars} out of 5 stars`}>
-                {Array.from({ length: t.stars }).map((_, i) => (
-                  <IconStar key={i} />
-                ))}
+              <div className="testimonial-header">
+                <div className="testimonial-stars" aria-label="5 out of 5 stars">
+                  {Array.from({ length: 5 }).map((_, index) => (
+                    <IconStar key={index} />
+                  ))}
+                </div>
+                <div className="testimonial-metric">
+                  <span className="metric-badge">{testimonial.metric}</span>
+                </div>
               </div>
-              <p className="testimonial-quote">{t.quote}</p>
+              
+              <p className="testimonial-quote">"{testimonial.quote}"</p>
+              
               <footer className="testimonial-author">
                 <div className="testimonial-avatar" aria-hidden="true">
-                  {t.avatar}
+                  <span>{testimonial.avatar}</span>
                 </div>
-                <div>
-                  <cite className="testimonial-name">{t.name}</cite>
-                  <p className="testimonial-role">{t.role}</p>
+                <div className="testimonial-info">
+                  <cite className="testimonial-name">{testimonial.name}</cite>
+                  <p className="testimonial-role">{testimonial.role} at {testimonial.company}</p>
                 </div>
               </footer>
+              
+              <div className="testimonial-glow" aria-hidden="true" />
             </blockquote>
           ))}
+        </div>
+
+        <div className="cta-strip animate-fade-up delay-3">
+          <p className="cta-text">Ready to transform your data operations?</p>
+          <button 
+            className="btn-primary btn-large"
+            onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Get started today
+            <IconStar />
+          </button>
         </div>
       </div>
     </section>
