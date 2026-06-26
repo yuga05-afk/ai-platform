@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { navigateTo } from '../App'
 import { FEATURE_STORIES } from '../data/features'
-import { IconArrow, IconZap, IconPlay } from './Icons'
+import { IconArrow, IconZap } from './Icons'
 import './Hero.css'
 
 export default function Hero() {
