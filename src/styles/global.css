@@ -1,0 +1,206 @@
+/* =========================================
+   DESIGN TOKENS — Exact palette from brief
+   ========================================= */
+:root {
+  /* Brand Colors */
+  --forsythia:       #FFC801;
+  --nocturnal:       #114C5A;
+  --arctic-powder:   #F1F6F4;
+  --mystic-mint:     #D9E8E2;
+  --deep-saffron:    #FF9932;
+  --oceanic-noir:    #172B36;
+
+  /* Semantic aliases */
+  --bg-primary:      var(--oceanic-noir);
+  --bg-secondary:    #0e1f28;
+  --bg-card:         #1c3340;
+  --bg-card-hover:   #22404f;
+  --accent-yellow:   var(--forsythia);
+  --accent-orange:   var(--deep-saffron);
+  --accent-teal:     var(--nocturnal);
+  --text-primary:    var(--arctic-powder);
+  --text-secondary:  var(--mystic-mint);
+  --text-muted:      #7fa9b5;
+  --text-dark:       var(--oceanic-noir);
+  --border-color:    rgba(209, 232, 226, 0.12);
+  --border-accent:   rgba(255, 200, 1, 0.3);
+
+  /* Fonts */
+  --font-display:    'JetBrains Mono', monospace;
+  --font-body:       'Inter', sans-serif;
+
+  /* Spacing */
+  --section-pad:     6rem 1.5rem;
+  --radius-sm:       6px;
+  --radius-md:       12px;
+  --radius-lg:       20px;
+
+  /* Transitions */
+  --t-micro:         150ms ease-out;
+  --t-hover:         200ms ease-out;
+  --t-layout:        350ms ease-in-out;
+}
+
+/* =========================================
+   RESET & BASE
+   ========================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================
+   TYPOGRAPHY
+   ========================================= */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+p, li, span, label, input, button {
+  font-family: var(--font-body);
+}
+
+/* =========================================
+   SCROLLBAR
+   ========================================= */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nocturnal);
+  border-radius: 3px;
+}
+
+/* =========================================
+   UTILITY
+   ========================================= */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* =========================================
+   LOADER
+   ========================================= */
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: opacity 200ms ease-out, visibility 200ms ease-out;
+}
+
+#loader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader-logo {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--forsythia);
+  letter-spacing: 0.1em;
+}
+
+.loader-bar-track {
+  width: 200px;
+  height: 2px;
+  background: var(--border-color);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.loader-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--forsythia), var(--deep-saffron));
+  border-radius: 1px;
+  animation: loaderFill 400ms ease-out forwards;
+}
+
+@keyframes loaderFill {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+/* =========================================
+   ENTRY ANIMATIONS (≤500ms total)
+   ========================================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 400ms ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 300ms ease-out both;
+}
+
+.delay-1 { animation-delay: 80ms; }
+.delay-2 { animation-delay: 160ms; }
+.delay-3 { animation-delay: 240ms; }
+.delay-4 { animation-delay: 320ms; }
+.delay-5 { animation-delay: 400ms; }
+
+/* =========================================
+   REDUCED MOTION
+   ========================================= */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
